@@ -830,3 +830,101 @@ footer {
   display: flex;
   gap: 1rem;
 }
+
+/* ************ General Styles ************ */
+
+/* Add media query for smaller screens */
+@media (max-width: 768px) {
+  /* For screens up to 768px width */
+  .container {
+    width: 90%;
+  }
+
+  /* Adjust logo size for smaller screens */
+  .logo {
+    width: 150px;
+    height: 100px;
+  }
+
+  /* Adjust font size and padding for nav items on smaller screens */
+  .nav-items div {
+    font-size: 16px;
+    padding: 0.5rem;
+  }
+
+  /* Make the hero section more compact on smaller screens */
+  .hero-section {
+    gap: 2rem;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+  }
+
+  /* Adjust font size and line height for hero section on smaller screens */
+  .hero-section-heading {
+    font-size: 30px;
+    line-height: 1.5;
+  }
+
+  /* Adjust font size for hero section sub-heading on smaller screens */
+  .hero-section-sub-heading {
+    font-size: 35px;
+    line-height: 35px;
+  }
+
+  /* Adjust font size for hero section description on smaller screens */
+  .hero-section-description {
+    font-size: 16px;
+  }
+
+  /* Adjust padding for project section on smaller screens */
+  .project-container {
+    padding: 1rem;
+    gap: 20px;
+  }
+
+  /* Adjust font size for project section number on smaller screens */
+  .project-number {
+    font-size: 100px;
+  }
+
+  /* Adjust font size for project section heading on smaller screens */
+  .project-heading {
+    font-size: 30px;
+  }
+
+  /* Adjust font size for project section sub-heading on smaller screens */
+  .project-subHeading {
+    font-size: 14px;
+  }
+
+  /* Adjust font size for skill section heading on smaller screens */
+  .skill-heading {
+    font-size: 30px;
+  }
+
+  /* Adjust font size for skill section sub-heading on smaller screens */
+  .skill-subHeading {
+    font-size: 14px;
+  }
+
+  /* Adjust width of skill logos for smaller screens */
+  .skills-logo {
+    width: 70px;
+  }
+
+  /* Adjust padding for contact us section on smaller screens */
+  .form {
+    padding: 1rem;
+  }
+
+  /* Adjust font size for footer text on smaller screens */
+  footer {
+    padding: 2rem;
+  }
+
+  /* Hide the faded text on smaller screens */
+  .faded-text {
+    display: none;
+  }
+}
